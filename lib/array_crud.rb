@@ -1,13 +1,13 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  characters = ["Spongebob", "Patrick", "Gary", "Squidward"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  characters.push
 end
 
 def add_element_to_start_of_array(array, element)
